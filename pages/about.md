@@ -7,7 +7,7 @@ weight: 3
 
 # **About**
 
-Hi, I'm **{{ site.author.name }}** :wave:, a musician, tech enthusiast, producer, programmer, gamer, and dj.
+Hi, I'm **Justin** (or **bustin**) :wave:, a producer, programmer, musician, tech enthusiast, gamer, and dj.
 
 Want to listen to my music? Click [here](https://sharpfive.fanlink.to/streaming)!
 
