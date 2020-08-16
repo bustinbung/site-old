@@ -86,3 +86,4 @@ exclude:
   - LICENSE
   - "*.log"
   - pages/blog.html
+  - [vendor]
