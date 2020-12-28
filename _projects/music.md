@@ -1,5 +1,5 @@
 ---
-name: Moosic
+name: Music
 tools: [ableton, music production]
 image:
 description: Listen, follow, and support my music!
