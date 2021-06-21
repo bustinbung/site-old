@@ -1,0 +1,108 @@
+p {
+    max-width: 50rem;
+    line-height: 1.5;
+}
+
+.window {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#about-window {
+    width: 20%;
+}
+
+#help-window {
+    width: 15%;
+    display: none;
+    z-index: 10;
+    top: -100%;
+}
+
+.tabs {
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: 18px;
+    text-align: center;
+}
+
+.mail-link {
+    text-decoration: none;
+    color: black;
+}
+
+.mail-link:hover {
+    color: #147efb;
+}
+
+.gh-link {
+    text-decoration: none;
+    color: black;
+}
+
+.gh-link:hover {
+    color: #6e5494;
+}
+
+.ig-link {
+    text-decoration: none;
+    color: black;
+}
+
+.ig-link:hover {
+    color: #c13584;
+}
+
+.tw-link {
+    text-decoration: none;
+    color: black;
+}
+
+.tw-link:hover {
+    color: #1da1f2;
+}
+
+.sn-link {
+    text-decoration: none;
+    color: black;
+}
+
+.sn-link:hover {
+    color: #fffc00;
+}
+
+.sp-link {
+    text-decoration: none;
+    color: black;
+}
+
+.sp-link:hover {
+    color: #1db954;
+}
+
+.yt-link {
+    text-decoration: none;
+    color: black;
+}
+
+.yt-link:hover {
+    color: #ff0000;
+}
+
+
+.s5-link {
+    text-decoration: none;
+    color: black;
+}
+
+.s5-link:hover {
+    color: #00F2F2;
+}
