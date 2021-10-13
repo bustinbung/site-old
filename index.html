@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>justin's page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://unpkg.com/xp.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-        <script src="https://kit.fontawesome.com/fa77425652.js" crossorigin="anonymous"></script>
-    </head>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>justin's page</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://unpkg.com/xp.css">
+		<link rel="stylesheet" href="index.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://kit.fontawesome.com/fa77425652.js" crossorigin="anonymous"></script>
+	</head>
 
-    <body class="surface">        
-        <div class="window" id="about-window">
-            <div class="title-bar">
-                <div class="title-bar-text">Home</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Help" id="help-button"></button>
-                    <button aria-label="Close"></button>
-                </div>
-            </div>
-            <div class="window-body">
-                <p>The place for all things Justin Jung.</p>
-                <p>Learn more below:</p>
-                <section class="tabs" style="max-width: 500px">
-                    <menu role="tablist" aria-label="Sample Tabs">
-                      <button role="tab" aria-selected="true" aria-controls="about">About</button>
-                      <button role="tab" aria-controls="projects">Projects</button>
-                    </menu>
-                    <article role="tabpanel" id="about">
-                        <h3>About Me</h3>
-                        <p>Hey, I'm Justin, a 17 year old musician, developer, and videographer.<br>
-                        Keep in touch using the links below!</p>
-                        
-                        <table>
-                            <tr>
-                                <th><a target="_blank" href="mailto:junghyunjoon04@gmail.com" class="mail-link"><i class="far fa-envelope"></i></a></th>
-                                <th><a target="_blank" href="https://github.com/bustinbung" class="gh-link"><i class="fab fa-github"></i></a></th>
-                                <th><a target="_blank" href="https://www.instagram.com/__ricericebaby" class="ig-link"><i class="fab fa-instagram"></i></a></th>
-                                <th><a target="_blank" href="https://www.twitter.com/__ricericebaby" class="tw-link"><i class="fab fa-twitter"></i></a></th>
-                                <th><a target="_blank" href="https://snapchat.com/add/z1nonly0542" class="sn-link"><i class="fab fa-snapchat"></i></a></th>
-                                <th><a target="_blank" href="https://open.spotify.com/user/31ww575syjxqf7h653q36evvbgeu?si=823e116aa8cb46af" class="sp-link"><i class="fab fa-spotify"></i></a></th>
-                                <th><a target="_blank" href="https://www.youtube.com/channel/UCECTW1FyYsf6oT_KXNKPY3g" class="yt-link"><i class="fab fa-youtube"></i></a></th>
-                            </tr>
-                        </table>
-                    </article>
-                    <article role="tabpanel" hidden id="projects">
-                        <h3>Projects</h3>
-                        <p>Things I've worked on:</p>
-                        <ul>
-                            <li><a target="_blank" href="https://github.com/bustinbung/polyrhythm-generator" class="gh-link"><i class="fab fa-github"></i></a> | <em>polyrhythm-generator</em><br>
-                            A web app that creates graphics to visualize polyrhythms.</li>
-                            <li><a target="_blank" href="https://sharpfive.fanlink.to/streaming" class="s5-link"><i class="far fa-play-circle"></i></a> | <em>sharpFive</em><br>
-                            Creating music using Ableton Live.</li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UCECTW1FyYsf6oT_KXNKPY3g" class="yt-link"><i class="fab fa-youtube"></i></a> | <em>YouTube</em><br>
-                            Assorted video projects and other things.</li>
-                        </ul>
-                    </article>
-                </section>
-            </div>
-        </div>
+	<body class="surface">
+		<div class="window" id="about-window">
+			<div class="title-bar">
+				<div class="title-bar-text">Home</div>
+				<div class="title-bar-controls">
+					<button aria-label="Help" id="help-button"></button>
+					<button aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="window-body">
+				<p>The place for all things Justin Jung.</p>
+				<p>Learn more below:</p>
+				<section class="tabs" style="max-width: 500px">
+					<menu role="tablist" aria-label="Sample Tabs">
+						<button role="tab" aria-selected="true" aria-controls="about">About</button>
+						<button role="tab" aria-controls="projects">Projects</button>
+					</menu>
+					<article role="tabpanel" id="about">
+						<h3>About Me</h3>
+						<p>Hey, I'm Justin, a 17 year old musician, developer, and videographer.<br>
+						Keep in touch using the links below!</p>
 
-        <div class="window" id="help-window">
-            <div class="title-bar">
-                <div class="title-bar-text">Help</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Close" id="help-close"></button>
-                </div>
-            </div>
-            <div class="window-body">
-                <p>&lt;/&gt; with ♥ by justin.<br>
-                   see the code <a target="_blank" href="https://github.com/bustinbung/bustinbung.github.io">here.</a></p>
+						<table>
+							<tr>
+								<th><a target="_blank" href="mailto:junghyunjoon04@gmail.com" class="mail-link"><i class="far fa-envelope"></i></a></th>
+								<th><a target="_blank" href="https://github.com/bustinbung" class="gh-link"><i class="fab fa-github"></i></a></th>
+								<th><a target="_blank" href="https://www.instagram.com/__ricericebaby" class="ig-link"><i class="fab fa-instagram"></i></a></th>
+								<th><a target="_blank" href="https://www.twitter.com/__ricericebaby" class="tw-link"><i class="fab fa-twitter"></i></a></th>
+								<th><a target="_blank" href="https://snapchat.com/add/z1nonly0542" class="sn-link"><i class="fab fa-snapchat"></i></a></th>
+								<th><a target="_blank" href="https://open.spotify.com/user/31ww575syjxqf7h653q36evvbgeu?si=823e116aa8cb46af" class="sp-link"><i class="fab fa-spotify"></i></a></th>
+								<th><a target="_blank" href="https://www.youtube.com/channel/UCECTW1FyYsf6oT_KXNKPY3g" class="yt-link"><i class="fab fa-youtube"></i></a></th>
+							</tr>
+						</table>
+					</article>
+					<article role="tabpanel" hidden id="projects">
+						<h3>Projects</h3>
+						<p>Things I've worked on:</p>
+						<ul>
+							<li><a target="_blank" href="https://github.com/bustinbung/polyrhythm-generator" class="gh-link"><i class="fab fa-github"></i></a> | <em>polyrhythm-generator</em><br>
+							A web app that creates graphics to visualize polyrhythms.</li>
+							<li><a target="_blank" href="https://sharpfive.fanlink.to/streaming" class="s5-link"><i class="far fa-play-circle"></i></a> | <em>sharpFive</em><br>
+							Creating music using Ableton Live.</li>
+							<li><a target="_blank" href="https://www.youtube.com/watch?v=2RrM6PfDyrw&t=183s" class="yt-link"><i class="fab fa-youtube"></i></a> | <em>Music Is Essential</em><br>
+							STN 2021 Short Documentary submission - <i>Essential Work</i></li>
+							<li><a target="_blank" href="https://www.youtube.com/watch?v=b2wZILswE5c" class="yt-link"><i class="fab fa-youtube"></i></a> | <em>Pure Barre Spot Feature</em><br>
+							STN 2021 Spot Feature submission - <i>Knowledge Sharing</i></li>
+							<li><a target="_blank" href="https://www.youtube.com/watch?v=BJC0GNtXLpo" class="yt-link"><i class="fab fa-youtube"></i></a> | <em>7 AM</em><br>
+							Fulton County Film Festival Advanced Drama submission
+						</ul>
+					</article>
+				</section>
+			</div>
+		</div>
 
-                <p>v3.0.0</p>
-            </div>
-        </div>
+		<div class="window" id="help-window">
+			<div class="title-bar">
+				<div class="title-bar-text">Help</div>
+				<div class="title-bar-controls">
+					<button aria-label="Close" id="help-close"></button>
+				</div>
+			</div>
+			<div class="window-body">
+				<p>&lt;/&gt; with ♥ by justin.<br>
+				see the code <a target="_blank" href="https://github.com/bustinbung/bustinbung.github.io">here.</a></p>
+				<p>v3.0.0</p>
+			</div>
+		</div>
 
-        <script src="windows.js" async defer></script>
-        <script src="tabs.js" async defer></script>
-    </body>
+		<script src="windows.js" async defer></script>
+		<script src="tabs.js" async defer></script>
+	</body>
 </html>
